@@ -1,3 +1,7 @@
+
+
+
+
 Dorm Chef
 
 Dorm Chef is a simple mobile recipe application built with .NET MAUI. The app is designed to help college students and beginner cooks quickly find easy meals that are affordable, simple, and practical for everyday use.
@@ -78,7 +82,11 @@ Steps / Procedure
 
 Clone the repository:
 
-git clone [https://github.com/YOUR-USERNAME/DormChef.git](https://github.com/Ernest40/DormChef.git)
+
+
+git clone https://github.com/Ernest40/DormChef.git
+
+
 
 Open the solution file in Visual Studio.
 
@@ -95,7 +103,9 @@ Build the solution:
 dotnet build
 
 
+
 Run the app from Visual Studio by clicking the Run button.
+
 
 
 Notes about the images;
