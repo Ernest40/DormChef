@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:DormChef.Models"
+             xmlns:viewModels="clr-namespace:DormChef.ViewModels"
+             x:Class="DormChef.Views.CategoryPage"
+             x:DataType="viewModels:CategoryViewModel"
+             Title="{Binding CategoryName}"
+             BackgroundColor="#FFF8F0">
+
+    <Grid RowDefinitions="*,Auto">
+
+        <ScrollView Grid.Row="0">
+            <VerticalStackLayout Padding="16" Spacing="16">
+
+                <Frame BackgroundColor="#DDEED8"
+                       CornerRadius="10"
+                       Padding="10,6"
+                       HasShadow="False"
+                       HorizontalOptions="Start">
+                    <Label Text="{Binding CategoryName}"
+                           FontSize="24"
+                           FontAttributes="Bold"
+                           TextColor="#2E2E2E"/>
+                </Frame>
+
+                <CollectionView ItemsSource="{Binding Meals}"
+                                SelectionMode="None">
+                    <CollectionView.ItemsLayout>
+                        <GridItemsLayout Orientation="Vertical"
+                                         Span="2"
+                                         VerticalItemSpacing="12"
+                                         HorizontalItemSpacing="12" />
+                    </CollectionView.ItemsLayout>
+
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate x:DataType="models:Meal">
+                            <VerticalStackLayout Spacing="4">
+
+                                <Frame Padding="0"
+                                       CornerRadius="12"
+                                       HasShadow="False"
+                                       BorderColor="#E0E0E0"
+                                       BackgroundColor="White">
+                                    <Image Source="{Binding ImagePath}"
+                                           HeightRequest="110"
+                                           Aspect="AspectFill" />
+                                </Frame>
+
+                                <Label Text="{Binding Name}"
+                                       FontSize="16"
+                                       FontAttributes="Bold"
+                                       TextColor="#2E2E2E"
+                                       LineBreakMode="TailTruncation" />
+
+                                <Label Text="{Binding PrepTime, StringFormat='Prep Time: {0}'}"
+                                       FontSize="13"
+                                       TextColor="Gray" />
+
+                                <VerticalStackLayout.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="OnMealTapped" />
+                                </VerticalStackLayout.GestureRecognizers>
+
+                            </VerticalStackLayout>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <!-- Fixed Bottom Nav -->
+        <Grid Grid.Row="1"
+              BackgroundColor="White"
+              HeightRequest="70"
+              Padding="8"
+              ColumnDefinitions="*,*,*">
+
+            <Button Text="Home"
+                    Grid.Column="0"
+                    Clicked="OnHomeNavClicked"
+                    BackgroundColor="Transparent"
+                    TextColor="#FF914D"/>
+
+            <Button Text="Favorites"
+                    Grid.Column="1"
+                    Clicked="OnFavoritesNavClicked"
+                    BackgroundColor="Transparent"
+                    TextColor="Black"/>
+
+            <Button Text="Profile"
+                    Grid.Column="2"
+                    Clicked="OnProfileNavClicked"
+                    BackgroundColor="Transparent"
+                    TextColor="Black"/>
+        </Grid>
+
+    </Grid>
+</ContentPage>

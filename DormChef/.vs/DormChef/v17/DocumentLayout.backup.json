@@ -1,0 +1,458 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ernes\\source\\repos\\DormChef\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|c:\\users\\ernes\\source\\repos\\dormchef\\dormchef\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|solutionrelative:dormchef\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|c:\\users\\ernes\\source\\repos\\dormchef\\dormchef\\views\\categorypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|solutionrelative:dormchef\\views\\categorypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|c:\\users\\ernes\\source\\repos\\dormchef\\dormchef\\services\\mealdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|solutionrelative:dormchef\\services\\mealdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|c:\\users\\ernes\\source\\repos\\dormchef\\dormchef\\viewmodels\\mealdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|solutionrelative:dormchef\\viewmodels\\mealdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|c:\\users\\ernes\\source\\repos\\dormchef\\dormchef\\viewmodels\\categoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|solutionrelative:dormchef\\viewmodels\\categoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|c:\\users\\ernes\\source\\repos\\dormchef\\dormchef\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|solutionrelative:dormchef\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|c:\\users\\ernes\\source\\repos\\dormchef\\dormchef\\views\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|solutionrelative:dormchef\\views\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|c:\\users\\ernes\\source\\repos\\dormchef\\dormchef\\viewmodels\\favoritesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|solutionrelative:dormchef\\viewmodels\\favoritesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|c:\\users\\ernes\\source\\repos\\dormchef\\dormchef\\views\\categorypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|solutionrelative:dormchef\\views\\categorypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|c:\\users\\ernes\\source\\repos\\dormchef\\dormchef\\viewmodels\\signupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|solutionrelative:dormchef\\viewmodels\\signupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|c:\\users\\ernes\\source\\repos\\dormchef\\dormchef\\viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|solutionrelative:dormchef\\viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|c:\\users\\ernes\\source\\repos\\dormchef\\dormchef\\services\\appstateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|solutionrelative:dormchef\\services\\appstateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|c:\\users\\ernes\\source\\repos\\dormchef\\dormchef\\services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|solutionrelative:dormchef\\services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|c:\\users\\ernes\\source\\repos\\dormchef\\dormchef\\models\\favorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|solutionrelative:dormchef\\models\\favorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|c:\\users\\ernes\\source\\repos\\dormchef\\dormchef\\views\\mealdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|solutionrelative:dormchef\\views\\mealdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|c:\\users\\ernes\\source\\repos\\dormchef\\dormchef\\views\\signuppage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|solutionrelative:dormchef\\views\\signuppage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|c:\\users\\ernes\\source\\repos\\dormchef\\dormchef\\views\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|solutionrelative:dormchef\\views\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|c:\\users\\ernes\\source\\repos\\dormchef\\dormchef\\views\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|solutionrelative:dormchef\\views\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|c:\\users\\ernes\\source\\repos\\dormchef\\dormchef\\views\\mealdetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|solutionrelative:dormchef\\views\\mealdetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|c:\\users\\ernes\\source\\repos\\dormchef\\dormchef\\views\\signuppage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|solutionrelative:dormchef\\views\\signuppage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|c:\\users\\ernes\\source\\repos\\dormchef\\dormchef\\views\\favoritespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|solutionrelative:dormchef\\views\\favoritespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|c:\\users\\ernes\\source\\repos\\dormchef\\dormchef\\views\\favoritespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|solutionrelative:dormchef\\views\\favoritespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|c:\\users\\ernes\\source\\repos\\dormchef\\dormchef\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|solutionrelative:dormchef\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|c:\\users\\ernes\\source\\repos\\dormchef\\dormchef\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|solutionrelative:dormchef\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|c:\\users\\ernes\\source\\repos\\dormchef\\dormchef\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|solutionrelative:dormchef\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|c:\\users\\ernes\\source\\repos\\dormchef\\dormchef\\models\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|solutionrelative:dormchef\\models\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|c:\\users\\ernes\\source\\repos\\dormchef\\dormchef\\models\\meal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA765C1A-A096-41A3-B5B8-2FAC65B9EFBA}|DormChef\\DormChef.csproj|solutionrelative:dormchef\\models\\meal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MealDetailViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\ViewModels\\MealDetailViewModel.cs",
+              "RelativeDocumentMoniker": "DormChef\\ViewModels\\MealDetailViewModel.cs",
+              "ToolTip": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\ViewModels\\MealDetailViewModel.cs",
+              "RelativeToolTip": "DormChef\\ViewModels\\MealDetailViewModel.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAAAF4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T07:48:34.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MealDataService.cs",
+              "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\Services\\MealDataService.cs",
+              "RelativeDocumentMoniker": "DormChef\\Services\\MealDataService.cs",
+              "ToolTip": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\Services\\MealDataService.cs",
+              "RelativeToolTip": "DormChef\\Services\\MealDataService.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAgwIIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T07:46:30.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryPage.xaml",
+              "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\Views\\CategoryPage.xaml",
+              "RelativeDocumentMoniker": "DormChef\\Views\\CategoryPage.xaml",
+              "ToolTip": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\Views\\CategoryPage.xaml",
+              "RelativeToolTip": "DormChef\\Views\\CategoryPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-05T07:00:49.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\Views\\HomePage.xaml",
+              "RelativeDocumentMoniker": "DormChef\\Views\\HomePage.xaml",
+              "ToolTip": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\Views\\HomePage.xaml",
+              "RelativeToolTip": "DormChef\\Views\\HomePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-05T07:00:07.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoryViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\ViewModels\\CategoryViewModel.cs",
+              "RelativeDocumentMoniker": "DormChef\\ViewModels\\CategoryViewModel.cs",
+              "ToolTip": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\ViewModels\\CategoryViewModel.cs",
+              "RelativeToolTip": "DormChef\\ViewModels\\CategoryViewModel.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAqwBMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T06:55:31.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\ViewModels\\HomeViewModel.cs",
+              "RelativeDocumentMoniker": "DormChef\\ViewModels\\HomeViewModel.cs",
+              "ToolTip": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\ViewModels\\HomeViewModel.cs",
+              "RelativeToolTip": "DormChef\\ViewModels\\HomeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T06:54:55.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\Views\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "DormChef\\Views\\HomePage.xaml.cs",
+              "ToolTip": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\Views\\HomePage.xaml.cs",
+              "RelativeToolTip": "DormChef\\Views\\HomePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T08:33:12.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FavoritesViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\ViewModels\\FavoritesViewModel.cs",
+              "RelativeDocumentMoniker": "DormChef\\ViewModels\\FavoritesViewModel.cs",
+              "ToolTip": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\ViewModels\\FavoritesViewModel.cs",
+              "RelativeToolTip": "DormChef\\ViewModels\\FavoritesViewModel.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T06:56:49.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CategoryPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\Views\\CategoryPage.xaml.cs",
+              "RelativeDocumentMoniker": "DormChef\\Views\\CategoryPage.xaml.cs",
+              "ToolTip": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\Views\\CategoryPage.xaml.cs",
+              "RelativeToolTip": "DormChef\\Views\\CategoryPage.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T08:34:50.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SignupViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\ViewModels\\SignupViewModel.cs",
+              "RelativeDocumentMoniker": "DormChef\\ViewModels\\SignupViewModel.cs",
+              "ToolTip": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\ViewModels\\SignupViewModel.cs",
+              "RelativeToolTip": "DormChef\\ViewModels\\SignupViewModel.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAIYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T06:54:29.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProfileViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\ViewModels\\ProfileViewModel.cs",
+              "RelativeDocumentMoniker": "DormChef\\ViewModels\\ProfileViewModel.cs",
+              "ToolTip": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\ViewModels\\ProfileViewModel.cs",
+              "RelativeToolTip": "DormChef\\ViewModels\\ProfileViewModel.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAE0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T07:48:58.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppStateService.cs",
+              "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\Services\\AppStateService.cs",
+              "RelativeDocumentMoniker": "DormChef\\Services\\AppStateService.cs",
+              "ToolTip": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\Services\\AppStateService.cs",
+              "RelativeToolTip": "DormChef\\Services\\AppStateService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T07:47:45.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DatabaseService.cs",
+              "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\Services\\DatabaseService.cs",
+              "RelativeDocumentMoniker": "DormChef\\Services\\DatabaseService.cs",
+              "ToolTip": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\Services\\DatabaseService.cs",
+              "RelativeToolTip": "DormChef\\Services\\DatabaseService.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAuwDUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T07:47:08.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Favorite.cs",
+              "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\Models\\Favorite.cs",
+              "RelativeDocumentMoniker": "DormChef\\Models\\Favorite.cs",
+              "ToolTip": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\Models\\Favorite.cs",
+              "RelativeToolTip": "DormChef\\Models\\Favorite.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T06:52:21.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MealDetailPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\Views\\MealDetailPage.xaml.cs",
+              "RelativeDocumentMoniker": "DormChef\\Views\\MealDetailPage.xaml.cs",
+              "ToolTip": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\Views\\MealDetailPage.xaml.cs",
+              "RelativeToolTip": "DormChef\\Views\\MealDetailPage.xaml.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAUwBAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T08:36:46.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SignUpPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\Views\\SignUpPage.xaml.cs",
+              "RelativeDocumentMoniker": "DormChef\\Views\\SignUpPage.xaml.cs",
+              "ToolTip": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\Views\\SignUpPage.xaml.cs",
+              "RelativeToolTip": "DormChef\\Views\\SignUpPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T08:29:42.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProfilePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\Views\\ProfilePage.xaml.cs",
+              "RelativeDocumentMoniker": "DormChef\\Views\\ProfilePage.xaml.cs",
+              "ToolTip": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\Views\\ProfilePage.xaml.cs",
+              "RelativeToolTip": "DormChef\\Views\\ProfilePage.xaml.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T08:42:43.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProfilePage.xaml",
+              "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\Views\\ProfilePage.xaml",
+              "RelativeDocumentMoniker": "DormChef\\Views\\ProfilePage.xaml",
+              "ToolTip": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\Views\\ProfilePage.xaml",
+              "RelativeToolTip": "DormChef\\Views\\ProfilePage.xaml",
+              "ViewState": "AgIAADgAAAAAAAAAAAAuwFwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-05T07:01:54.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MealDetailPage.xaml",
+              "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\Views\\MealDetailPage.xaml",
+              "RelativeDocumentMoniker": "DormChef\\Views\\MealDetailPage.xaml",
+              "ToolTip": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\Views\\MealDetailPage.xaml",
+              "RelativeToolTip": "DormChef\\Views\\MealDetailPage.xaml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAuwGMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-05T07:01:17.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SignUpPage.xaml",
+              "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\Views\\SignUpPage.xaml",
+              "RelativeDocumentMoniker": "DormChef\\Views\\SignUpPage.xaml",
+              "ToolTip": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\Views\\SignUpPage.xaml",
+              "RelativeToolTip": "DormChef\\Views\\SignUpPage.xaml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAuwDYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-05T06:59:34.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FavoritesPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\Views\\FavoritesPage.xaml.cs",
+              "RelativeDocumentMoniker": "DormChef\\Views\\FavoritesPage.xaml.cs",
+              "ToolTip": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\Views\\FavoritesPage.xaml.cs",
+              "RelativeToolTip": "DormChef\\Views\\FavoritesPage.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T08:40:26.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FavoritesPage.xaml",
+              "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\Views\\FavoritesPage.xaml",
+              "RelativeDocumentMoniker": "DormChef\\Views\\FavoritesPage.xaml",
+              "ToolTip": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\Views\\FavoritesPage.xaml",
+              "RelativeToolTip": "DormChef\\Views\\FavoritesPage.xaml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAuwG8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-05T07:02:28.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\App.xaml.cs",
+              "RelativeDocumentMoniker": "DormChef\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\App.xaml.cs",
+              "RelativeToolTip": "DormChef\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T08:25:14.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\App.xaml",
+              "RelativeDocumentMoniker": "DormChef\\App.xaml",
+              "ToolTip": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\App.xaml",
+              "RelativeToolTip": "DormChef\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-05T09:31:49.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "DormChef\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\MauiProgram.cs",
+              "RelativeToolTip": "DormChef\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T08:25:30.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Meal.cs",
+              "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\Models\\Meal.cs",
+              "RelativeDocumentMoniker": "DormChef\\Models\\Meal.cs",
+              "ToolTip": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\Models\\Meal.cs",
+              "RelativeToolTip": "DormChef\\Models\\Meal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T07:03:38.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\Models\\UserProfile.cs",
+              "RelativeDocumentMoniker": "DormChef\\Models\\UserProfile.cs",
+              "ToolTip": "C:\\Users\\ernes\\source\\repos\\DormChef\\DormChef\\Models\\UserProfile.cs",
+              "RelativeToolTip": "DormChef\\Models\\UserProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T06:53:00.384Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

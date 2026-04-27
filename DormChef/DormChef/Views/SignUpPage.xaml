@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DormChef.Views.SignUpPage"
+             Title="Sign Up"
+             BackgroundColor="#FFF8F0">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="25" Spacing="15">
+
+            <Label Text="Dorm Chef"
+                   FontSize="30"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   TextColor="#2E2E2E"/>
+
+            <Label Text="Create a profile or skip to continue"
+                   FontSize="16"
+                   HorizontalOptions="Center"
+                   TextColor="Gray"/>
+
+            <Entry Placeholder="Email Address"
+                   Keyboard="Email"
+                   Text="{Binding Email}" />
+
+            <Entry Placeholder="First Name"
+                   Text="{Binding FirstName}" />
+
+            <Entry Placeholder="Last Name"
+                   Text="{Binding LastName}" />
+
+            <Entry Placeholder="Profile Name"
+                   Text="{Binding ProfileName}" />
+
+            <Entry Placeholder="Password"
+                   IsPassword="True"
+                   Text="{Binding Password}" />
+
+            <Button Text="Sign Up"
+                    Command="{Binding SignUpCommand}"
+                    BackgroundColor="#FF914D"
+                    TextColor="White"
+                    CornerRadius="12"
+                    HeightRequest="50"/>
+
+            <Button Text="Skip Login"
+                    Command="{Binding SkipLoginCommand}"
+                    BackgroundColor="#E0E0E0"
+                    TextColor="Black"
+                    CornerRadius="12"
+                    HeightRequest="50"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

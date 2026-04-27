@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:DormChef.Models"
+             xmlns:viewModels="clr-namespace:DormChef.ViewModels"
+             x:Class="DormChef.Views.FavoritesPage"
+             x:DataType="viewModels:FavoritesViewModel"
+             Title="Favorites"
+             BackgroundColor="#FFF8F0">
+
+    <Grid RowDefinitions="*,Auto">
+
+        <ScrollView Grid.Row="0">
+            <VerticalStackLayout Padding="8" Spacing="12">
+
+                <Label Text="These are your favorite meals"
+                       FontSize="18"
+                       TextColor="Gray"
+                       HorizontalOptions="Center" />
+
+                <CollectionView ItemsSource="{Binding FavoriteMeals}"
+                                SelectionMode="None">
+
+                    <CollectionView.EmptyView>
+                        <VerticalStackLayout Spacing="5" Padding="10">
+                            <Label Text="No favorites yet."
+                                   FontSize="20"
+                                   FontAttributes="Bold"
+                                   HorizontalOptions="Center"
+                                   TextColor="Gray" />
+                            <Label Text="Go to a meal and tap Add to Favorites."
+                                   FontSize="14"
+                                   HorizontalOptions="Center"
+                                   TextColor="Gray" />
+                        </VerticalStackLayout>
+                    </CollectionView.EmptyView>
+
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate x:DataType="models:Meal">
+                            <Frame CornerRadius="12"
+                                   Padding="5"
+                                   Margin="0,2"
+                                   BackgroundColor="White"
+                                   BorderColor="#E0E0E0"
+                                   HasShadow="False">
+
+                                <Grid ColumnDefinitions="80,*"
+                                      ColumnSpacing="8">
+
+                                    <Image Grid.Column="0"
+                                           Source="{Binding ImagePath}"
+                                           HeightRequest="70"
+                                           WidthRequest="70"
+                                           Aspect="AspectFill" />
+
+                                    <VerticalStackLayout Grid.Column="1"
+                                                         VerticalOptions="Center"
+                                                         Spacing="3">
+
+                                        <Label Text="{Binding Name}"
+                                               FontSize="17"
+                                               FontAttributes="Bold"
+                                               TextColor="#2E2E2E"
+                                               LineBreakMode="WordWrap"
+                                               MaxLines="2" />
+
+                                        <Label Text="{Binding PrepTime, StringFormat='Prep Time: {0}'}"
+                                               FontSize="13"
+                                               TextColor="Gray" />
+                                    </VerticalStackLayout>
+
+                                    <Grid.GestureRecognizers>
+                                        <TapGestureRecognizer Tapped="OnFavoriteMealTapped" />
+                                    </Grid.GestureRecognizers>
+
+                                </Grid>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <!-- Fixed Bottom Nav -->
+        <Grid Grid.Row="1"
+              BackgroundColor="White"
+              HeightRequest="70"
+              Padding="8"
+              ColumnDefinitions="*,*,*">
+
+            <Button Text="Home"
+                    Grid.Column="0"
+                    Clicked="OnHomeNavClicked"
+                    BackgroundColor="Transparent"
+                    TextColor="Black"/>
+
+            <Button Text="Favorites"
+                    Grid.Column="1"
+                    Clicked="OnFavoritesNavClicked"
+                    BackgroundColor="Transparent"
+                    TextColor="#FF914D"/>
+
+            <Button Text="Profile"
+                    Grid.Column="2"
+                    Clicked="OnProfileNavClicked"
+                    BackgroundColor="Transparent"
+                    TextColor="Black"/>
+        </Grid>
+
+    </Grid>
+</ContentPage>

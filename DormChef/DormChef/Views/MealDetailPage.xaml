@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:DormChef.ViewModels"
+             x:Class="DormChef.Views.MealDetailPage"
+             x:DataType="viewModels:MealDetailViewModel"
+             Title="Meal Details"
+             BackgroundColor="#FFF8F0">
+
+    <Grid RowDefinitions="*,Auto">
+
+        <ScrollView Grid.Row="0">
+            <VerticalStackLayout Padding="20" Spacing="15">
+
+                <Image Source="{Binding SelectedMeal.ImagePath}"
+                       HeightRequest="220"
+                       Aspect="AspectFill" />
+
+                <Label Text="{Binding SelectedMeal.Name}"
+                       FontSize="28"
+                       FontAttributes="Bold"
+                       TextColor="#2E2E2E" />
+
+                <Label Text="{Binding SelectedMeal.PrepTime, StringFormat='Prep Time: {0}'}"
+                       FontSize="16"
+                       TextColor="Gray" />
+
+                <Label Text="{Binding SelectedMeal.Description}"
+                       FontSize="15"
+                       TextColor="#444" />
+
+                <Button Text="{Binding FavoriteButtonText}"
+                        Command="{Binding ToggleFavoriteCommand}"
+                        BackgroundColor="#FF914D"
+                        TextColor="White"
+                        CornerRadius="12"
+                        HeightRequest="50" />
+
+                <Label Text="Ingredients"
+                       FontSize="22"
+                       FontAttributes="Bold"
+                       TextColor="#2E2E2E" />
+
+                <CollectionView ItemsSource="{Binding Ingredients}"
+                                SelectionMode="None">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Label Text="{Binding .}"
+                                   FontSize="15"
+                                   Margin="0,4" />
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+
+                <Label Text="Instructions"
+                       FontSize="22"
+                       FontAttributes="Bold"
+                       TextColor="#2E2E2E" />
+
+                <CollectionView ItemsSource="{Binding Steps}"
+                                SelectionMode="None">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Label Text="{Binding .}"
+                                   FontSize="15"
+                                   Margin="0,4" />
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <Grid Grid.Row="1"
+              BackgroundColor="White"
+              HeightRequest="70"
+              Padding="8"
+              ColumnDefinitions="*,*,*">
+
+            <Button Text="Home"
+                    Grid.Column="0"
+                    Clicked="OnHomeNavClicked"
+                    BackgroundColor="Transparent"
+                    TextColor="#FF914D"/>
+
+            <Button Text="Favorites"
+                    Grid.Column="1"
+                    Clicked="OnFavoritesNavClicked"
+                    BackgroundColor="Transparent"
+                    TextColor="Black"/>
+
+            <Button Text="Profile"
+                    Grid.Column="2"
+                    Clicked="OnProfileNavClicked"
+                    BackgroundColor="Transparent"
+                    TextColor="Black"/>
+        </Grid>
+
+    </Grid>
+</ContentPage>

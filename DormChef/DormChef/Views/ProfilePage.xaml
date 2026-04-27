@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:DormChef.ViewModels"
+             x:Class="DormChef.Views.ProfilePage"
+             x:DataType="viewModels:ProfileViewModel"
+             Title="Profile"
+             BackgroundColor="#FFF8F0">
+
+    <Grid RowDefinitions="*,Auto">
+
+        <ScrollView Grid.Row="0">
+            <VerticalStackLayout Padding="20" Spacing="20">
+
+                <Label Text="Profile"
+                       FontSize="28"
+                       FontAttributes="Bold"
+                       TextColor="#2E2E2E" />
+
+                <VerticalStackLayout IsVisible="{Binding IsGuest}" Spacing="12">
+                    <Frame BackgroundColor="White" CornerRadius="15" Padding="15" HasShadow="True">
+                        <VerticalStackLayout Spacing="10">
+                            <Label Text="You are currently using Dorm Chef as a guest."
+                                   FontSize="18"
+                                   FontAttributes="Bold"
+                                   TextColor="#2E2E2E" />
+
+                            <Label Text="Create a profile to personalize your experience, save your preferences, and support future features."
+                                   FontSize="14"
+                                   TextColor="Gray" />
+
+                            <Button Text="Create Profile"
+                                    Clicked="OnCreateProfileClicked"
+                                    BackgroundColor="#FF914D"
+                                    TextColor="White"
+                                    CornerRadius="12"
+                                    HeightRequest="50"/>
+                        </VerticalStackLayout>
+                    </Frame>
+                </VerticalStackLayout>
+
+                <VerticalStackLayout IsVisible="{Binding IsLoggedIn}" Spacing="12">
+                    <Frame BackgroundColor="White" CornerRadius="15" Padding="15" HasShadow="True">
+                        <VerticalStackLayout Spacing="10">
+                            <Label Text="Your Account"
+                                   FontSize="20"
+                                   FontAttributes="Bold"
+                                   TextColor="#2E2E2E" />
+
+                            <Label Text="{Binding CurrentProfile.FirstName, StringFormat='First Name: {0}'}" />
+                            <Label Text="{Binding CurrentProfile.LastName, StringFormat='Last Name: {0}'}" />
+                            <Label Text="{Binding CurrentProfile.ProfileName, StringFormat='Profile Name: {0}'}" />
+                            <Label Text="{Binding CurrentProfile.Email, StringFormat='Email: {0}'}" />
+                        </VerticalStackLayout>
+                    </Frame>
+
+                    <Button Text="Continue as Guest"
+                            Command="{Binding ContinueAsGuestCommand}"
+                            BackgroundColor="#E0E0E0"
+                            TextColor="Black"
+                            CornerRadius="12"
+                            HeightRequest="50"/>
+                </VerticalStackLayout>
+
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <Grid Grid.Row="1"
+              BackgroundColor="White"
+              HeightRequest="70"
+              Padding="8"
+              ColumnDefinitions="*,*,*">
+
+            <Button Text="Home"
+                    Grid.Column="0"
+                    Clicked="OnHomeNavClicked"
+                    BackgroundColor="Transparent"
+                    TextColor="Black"/>
+
+            <Button Text="Favorites"
+                    Grid.Column="1"
+                    Clicked="OnFavoritesNavClicked"
+                    BackgroundColor="Transparent"
+                    TextColor="Black"/>
+
+            <Button Text="Profile"
+                    Grid.Column="2"
+                    BackgroundColor="Transparent"
+                    TextColor="#FF914D"/>
+        </Grid>
+
+    </Grid>
+</ContentPage>
